@@ -26,8 +26,8 @@ Este repositorio contiene una suite de pruebas automatizadas para la plataforma 
 
 1. Clonar repositorio
 ```
-git clone https://github.com/MBGG8/reto-qa-backend.git
-cd reto-qa-backend
+git clone https://github.com/MBGG8/reto-qa-frontend.git
+cd reto-qa-frontend
 ```
 2. Instalar dependencias
 ```
