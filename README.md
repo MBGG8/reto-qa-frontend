@@ -66,24 +66,6 @@ mvn clean test
 
 ```
 
-## 📊 Reportes y Evidencias
-
-El framework genera automáticamente evidencias de nivel profesional en la carpeta `target/`:
-
--   **Reporte HTML:** Se genera en `target/cucumber-report.html`.
-
--   **Videos:** Cada ejecución graba un video del flujo en `target/videos/`.
-
--   **Tracing:** En caso de fallo, se genera un archivo de traza en `target/traces/`. Puedes visualizar el error paso a paso con el visualizador de Playwright:
-
-
-Bash
-
-```
-mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="show-trace target/traces/nombre-del-archivo.zip"
-
-```
-
 ## 📝 Escenarios Cubiertos
 
 -   **Login:** Verificación de acceso para `standard_user` y validación de error para `locked_out_user`.
