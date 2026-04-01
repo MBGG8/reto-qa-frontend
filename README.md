@@ -25,14 +25,14 @@ Este repositorio contiene una suite de pruebas automatizadas para la plataforma 
 ### 2. Configuración de Credenciales (CRÍTICO)
 
 1. Clonar repositorio
-
+```
 git clone https://github.com/MBGG8/reto-qa-backend.git
 cd reto-qa-backend
-
+```
 2. Instalar dependencias
-
+```
 mvn clean install
-
+```
 Por seguridad, las credenciales y la URL base no están _hardcodeadas_ en el código. **Es obligatorio** crear el archivo de configuración local antes de ejecutar las pruebas:
 
 1.  Dirígete a la ruta: `src/test/resources/`
