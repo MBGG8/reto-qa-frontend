@@ -29,10 +29,7 @@ Este repositorio contiene una suite de pruebas automatizadas para la plataforma 
 git clone https://github.com/MBGG8/reto-qa-frontend.git
 cd reto-qa-frontend
 ```
-2. Instalar dependencias
-```
-mvn clean install
-```
+
 Por seguridad, las credenciales y la URL base no están _hardcodeadas_ en el código. **Es obligatorio** crear el archivo de configuración local antes de ejecutar las pruebas:
 
 1.  Dirígete a la ruta: `src/test/resources/`
@@ -51,6 +48,12 @@ PASSWORD=secret_sauce
 ```
 
 > **Nota:** Este archivo debe estar incluido en el `.gitignore` para evitar la exposición de secretos en el repositorio remoto.
+
+2. Instalar dependencias
+```
+mvn clean install
+```
+
 
 ### 3. Ejecución desde la Terminal
 
